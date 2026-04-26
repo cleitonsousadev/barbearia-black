@@ -60,7 +60,7 @@ export default function App() {
           <div className="hidden lg:flex items-center gap-10 text-[11px] font-semibold tracking-ultra text-zinc-500">
             <a href="#inicio" className="hover:text-gold transition-colors">Início</a>
             <a href="#perfil" className="hover:text-gold transition-colors">Perfil</a>
-            <a href="#espaco" className="hover:text-gold transition-colors">O Espaço</a>
+            <a href="#espaco" className="hover:text-gold transition-colors">Espaço</a>
             <a href="#vendas" className="hover:text-gold transition-colors">Produtos</a>
             <a href="#futuro" className="hover:text-gold transition-colors">Futuros</a>
             <a href="#clientes" className="hover:text-gold transition-colors">Clientes</a>
@@ -244,7 +244,7 @@ export default function App() {
                  viewport={{ once: true }}
                  className="relative border border-white/10 p-2"
                >
-                 <img src="/imagens/espaco-1.png" alt="O Espaço Barbearia Black 1" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
+                 <img src="/imagens/espaco-1.png" alt="Espaço Barbearia Black 1" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
                </motion.div>
                <motion.div 
                  initial={{ opacity: 0, y: 20 }}
@@ -253,7 +253,7 @@ export default function App() {
                  transition={{ delay: 0.2 }}
                  className="relative border border-white/10 p-2 md:translate-y-8"
                >
-                 <img src="/imagens/espaco-2.png" alt="O Espaço Barbearia Black 2" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
+                 <img src="/imagens/espaco-2.png" alt="Espaço Barbearia Black 2" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
                </motion.div>
              </div>
           </div>
