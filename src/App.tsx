@@ -133,7 +133,7 @@ export default function App() {
           >
             <div className="aspect-[4/5] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 border-l border-t border-white/10">
               <img 
-                src="/imagens/perfil-da-empresa.png" 
+                src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=2070&auto=format&fit=crop" 
                 alt="Barbearia Black Concept" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -219,7 +219,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row gap-20 items-center">
              <div className="lg:w-1/2">
-                <SectionTitle subtitle="Exclusividade">Nosso Espaço</SectionTitle>
+                <SectionTitle subtitle="Exclusividade">Espaço</SectionTitle>
                 <p className="text-zinc-400 text-lg leading-relaxed mb-8">
                   Nosso espaço foi planejado para ser um refúgio masculino. Um ambiente que une o rústico ao moderno, proporcionando conforto absoluto enquanto você cuida do seu visual. 
                   Para tornar sua espera ainda mais agradável, <span className="text-white font-medium">servimos café quentinho e água gelada</span> para todos os nossos clientes. Cada detalhe foi pensado para oferecer uma experiência de luxo autêntica em Rio Manso.
@@ -246,7 +246,7 @@ export default function App() {
                  viewport={{ once: true }}
                  className="relative border border-white/10 p-2"
                >
-                 <img src="/imagens/espaco-1.png" alt="Espaço Barbearia Black 1" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
+                 <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2074&auto=format&fit=crop" alt="Espaço Barbearia Black 1" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
                </motion.div>
                <motion.div 
                  initial={{ opacity: 0, y: 20 }}
@@ -255,7 +255,7 @@ export default function App() {
                  transition={{ delay: 0.2 }}
                  className="relative border border-white/10 p-2 md:translate-y-8"
                >
-                 <img src="/imagens/espaco-2.png" alt="Espaço Barbearia Black 2" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
+                 <img src="https://images.unsplash.com/photo-1621605815841-2cd47e0662c5?q=80&w=2070&auto=format&fit=crop" alt="Espaço Barbearia Black 2" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
                </motion.div>
              </div>
           </div>
@@ -268,9 +268,9 @@ export default function App() {
           <SectionTitle subtitle="Estilo e Manutenção">Nossos Produtos</SectionTitle>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { src: "/imagens/vendas-1.jpeg", name: "Produto 1", desc: "Linha profissional para acabamento." },
-              { src: "/imagens/vendas-2.jpeg", name: "Produto 2", desc: "Cuidado e hidratação diária." },
-              { src: "/imagens/vendas-3.jpeg", name: "Produto 3", desc: "Modelagem de alta performance." }
+              { src: "https://images.unsplash.com/photo-1635273051937-640c6aeb9371?q=80&w=1974&auto=format&fit=crop", name: "Produto 1", desc: "Linha profissional para acabamento." },
+              { src: "https://images.unsplash.com/photo-1634449591410-449373d4581f?q=80&w=2070&auto=format&fit=crop", name: "Produto 2", desc: "Cuidado e hidratação diária." },
+              { src: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=2032&auto=format&fit=crop", name: "Produto 3", desc: "Modelagem de alta performance." }
             ].map((prod, i) => (
               <motion.div 
                 key={i}
@@ -333,9 +333,9 @@ export default function App() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { src: "/imagens/cliente-1.png", name: "Cliente 1" },
-              { src: "/imagens/cliente-2.png", name: "Cliente 2" },
-              { src: "/imagens/cliente-3.jpg", name: "Cliente 3" }
+              { src: "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?q=80&w=1974&auto=format&fit=crop", name: "Cliente 1" },
+              { src: "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?q=80&w=2070&auto=format&fit=crop", name: "Cliente 2" },
+              { src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1974&auto=format&fit=crop", name: "Cliente 3" }
             ].map((cliente, i) => (
               <motion.div 
                 key={i}
