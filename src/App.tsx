@@ -83,7 +83,7 @@ export default function App() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/40 via-zinc-950/80 to-zinc-950 z-10" />
           <img 
-            src="imagens/fundo.jpg" 
+            src="/imagens/fundo.jpg" 
             alt="Barbearia Black Interior" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -133,7 +133,7 @@ export default function App() {
           >
             <div className="aspect-[4/5] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 border-l border-t border-white/10">
               <img 
-                src="imagens/perfil-da-empresa.png" 
+                src="/imagens/perfil-da-empresa.png" 
                 alt="Barbearia Black Concept" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -246,7 +246,7 @@ export default function App() {
                  viewport={{ once: true }}
                  className="relative border border-white/10 p-2"
                >
-                 <img src="imagens/espaco-1.png" alt="Espaço Barbearia Black 1" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
+                 <img src="/imagens/espaco-1.png" alt="Espaço Barbearia Black 1" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
                </motion.div>
                <motion.div 
                  initial={{ opacity: 0, y: 20 }}
@@ -255,7 +255,7 @@ export default function App() {
                  transition={{ delay: 0.2 }}
                  className="relative border border-white/10 p-2 md:translate-y-8"
                >
-                 <img src="imagens/espaco-2.png" alt="Espaço Barbearia Black 2" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
+                 <img src="/imagens/espaco-2.png" alt="Espaço Barbearia Black 2" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
                </motion.div>
              </div>
           </div>
@@ -268,9 +268,9 @@ export default function App() {
           <SectionTitle subtitle="Estilo e Manutenção">Nossos Produtos</SectionTitle>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { src: "imagens/vendas-1.jpeg", name: "Produto 1", desc: "Linha profissional para acabamento." },
-              { src: "imagens/vendas-2.jpeg", name: "Produto 2", desc: "Cuidado e hidratação diária." },
-              { src: "imagens/vendas-3.jpeg", name: "Produto 3", desc: "Modelagem de alta performance." }
+              { src: "/imagens/vendas-1.jpeg", name: "Produto 1", desc: "Linha profissional para acabamento." },
+              { src: "/imagens/vendas-2.jpeg", name: "Produto 2", desc: "Cuidado e hidratação diária." },
+              { src: "/imagens/vendas-3.jpeg", name: "Produto 3", desc: "Modelagem de alta performance." }
             ].map((prod, i) => (
               <motion.div 
                 key={i}
@@ -333,9 +333,9 @@ export default function App() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { src: "imagens/cliente-1.png", name: "Cliente 1" },
-              { src: "imagens/cliente-2.png", name: "Cliente 2" },
-              { src: "imagens/cliente-3.jpg", name: "Cliente 3" }
+              { src: "/imagens/cliente-1.png", name: "Cliente 1" },
+              { src: "/imagens/cliente-2.png", name: "Cliente 2" },
+              { src: "/imagens/cliente-3.jpg", name: "Cliente 3" }
             ].map((cliente, i) => (
               <motion.div 
                 key={i}
