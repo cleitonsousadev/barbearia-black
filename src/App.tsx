@@ -86,7 +86,6 @@ export default function App() {
             src="/imagens/fundo.jpg" 
             alt="Barbearia Black Interior" 
             className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
           />
         </div>
         
@@ -136,7 +135,6 @@ export default function App() {
                 src="/imagens/perfil-da-empresa.png" 
                 alt="Barbearia Black Concept" 
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
             </div>
             <div className="absolute -bottom-8 -right-8 bg-zinc-900 border border-gold/30 p-10 hidden lg:block">
@@ -246,7 +244,7 @@ export default function App() {
                  viewport={{ once: true }}
                  className="relative border border-white/10 p-2"
                >
-                 <img src="/imagens/espaco-1.png" alt="Espaço Barbearia Black 1" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
+                 <img src="/imagens/espaco-1.png" alt="Espaço Barbearia Black 1" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
                </motion.div>
                <motion.div 
                  initial={{ opacity: 0, y: 20 }}
@@ -255,7 +253,7 @@ export default function App() {
                  transition={{ delay: 0.2 }}
                  className="relative border border-white/10 p-2 md:translate-y-8"
                >
-                 <img src="/imagens/espaco-2.png" alt="Espaço Barbearia Black 2" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
+                 <img src="/imagens/espaco-2.png" alt="Espaço Barbearia Black 2" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
                </motion.div>
              </div>
           </div>
@@ -281,7 +279,7 @@ export default function App() {
                 className="bg-zinc-900 border border-white/5 p-6 group hover:border-gold/30 transition-all"
               >
                 <div className="aspect-square overflow-hidden mb-6">
-                   <img src={prod.src} alt={prod.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer" />
+                   <img src={prod.src} alt={prod.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 </div>
                 <h3 className="text-white font-serif text-xl mb-2">{prod.name}</h3>
                 <p className="text-zinc-500 text-sm">{prod.desc}</p>
@@ -345,7 +343,7 @@ export default function App() {
                 transition={{ delay: i * 0.1 }}
                 className="group relative aspect-[3/4] overflow-hidden border border-white/5 bg-zinc-900"
               >
-                <img src={cliente.src} alt={cliente.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer" />
+                <img src={cliente.src} alt={cliente.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" />
                 <div className="absolute bottom-6 left-6">
                    <div className="w-8 h-px bg-gold mb-2" />
